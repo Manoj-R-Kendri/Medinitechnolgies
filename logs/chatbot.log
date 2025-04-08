@@ -1,0 +1,110 @@
+2025-04-04 14:35:06,996 - WARNING: Config file not found at E:\proooo\techvriti\.snapshots\junior_developer_chatbot\resources\json\config.json. Using defaults.
+2025-04-04 14:35:07,007 - INFO: Successfully loaded 130 training samples
+2025-04-04 14:35:07,007 - INFO: Chatbot model initialized successfully
+2025-04-04 14:35:07,126 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.229.243:5000
+2025-04-04 14:35:07,127 - INFO: [33mPress CTRL+C to quit[0m
+2025-04-04 14:35:07,130 - INFO:  * Restarting with stat
+2025-04-04 14:35:08,997 - WARNING: Config file not found at E:\proooo\techvriti\.snapshots\junior_developer_chatbot\resources\json\config.json. Using defaults.
+2025-04-04 14:35:09,023 - INFO: Successfully loaded 130 training samples
+2025-04-04 14:35:09,025 - INFO: Chatbot model initialized successfully
+2025-04-04 14:35:09,042 - WARNING:  * Debugger is active!
+2025-04-04 14:35:09,048 - INFO:  * Debugger PIN: 114-599-792
+2025-04-04 14:35:52,751 - WARNING: Config file not found at e:\proooo\techvriti\.snapshots\junior_developer_chatbot\resources\json\config.json. Using defaults.
+2025-04-04 14:35:52,780 - INFO: Successfully loaded 130 training samples
+2025-04-04 14:35:52,780 - INFO: Chatbot model initialized successfully
+2025-04-04 14:35:52,816 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.229.243:5000
+2025-04-04 14:35:52,816 - INFO: [33mPress CTRL+C to quit[0m
+2025-04-04 14:35:52,818 - INFO:  * Restarting with stat
+2025-04-04 14:35:55,163 - WARNING: Config file not found at e:\proooo\techvriti\.snapshots\junior_developer_chatbot\resources\json\config.json. Using defaults.
+2025-04-04 14:35:55,175 - INFO: Successfully loaded 130 training samples
+2025-04-04 14:35:55,175 - INFO: Chatbot model initialized successfully
+2025-04-04 14:35:55,186 - WARNING:  * Debugger is active!
+2025-04-04 14:35:55,192 - INFO:  * Debugger PIN: 875-780-577
+2025-04-04 14:36:10,966 - INFO: 127.0.0.1 - - [04/Apr/2025 14:36:10] "GET / HTTP/1.1" 200 -
+2025-04-04 14:36:12,064 - INFO: 127.0.0.1 - - [04/Apr/2025 14:36:12] "GET / HTTP/1.1" 200 -
+2025-04-04 14:36:15,798 - INFO: 127.0.0.1 - - [04/Apr/2025 14:36:15] "GET / HTTP/1.1" 200 -
+2025-04-04 14:39:25,499 - INFO:  * Detected change in 'E:\\proooo\\techvriti\\.snapshots\\junior_developer_chatbot\\model\\chatbot_model.py', reloading
+2025-04-04 14:39:25,918 - INFO:  * Restarting with stat
+2025-04-04 14:39:29,176 - model.chatbot_model - WARNING: Config file not found at E:\proooo\techvriti\.snapshots\junior_developer_chatbot\resources\json\config.json. Using defaults.
+2025-04-04 14:39:29,189 - model.chatbot_model - INFO: Successfully loaded 130 training samples
+2025-04-04 14:39:29,190 - __main__ - INFO: Chatbot model initialized successfully
+2025-04-04 14:39:29,218 - werkzeug - WARNING:  * Debugger is active!
+2025-04-04 14:39:29,225 - werkzeug - INFO:  * Debugger PIN: 114-599-792
+2025-04-04 14:39:35,659 - __main__ - WARNING: Config file not found at e:\proooo\techvriti\.snapshots\junior_developer_chatbot\resources\json\config.json. Using defaults.
+2025-04-04 14:39:35,670 - __main__ - INFO: Successfully loaded 130 training samples
+2025-04-04 14:40:10,243 - __main__ - INFO: Added new training data: 'hlo'
+2025-04-04 14:41:24,181 - werkzeug - INFO:  * Detected change in 'E:\\proooo\\techvriti\\.snapshots\\junior_developer_chatbot\\model\\chatbot_model.py', reloading
+2025-04-04 14:41:24,505 - INFO:  * Restarting with stat
+2025-04-04 14:41:27,228 - model.chatbot_model - WARNING: Config file not found at E:\proooo\techvriti\.snapshots\junior_developer_chatbot\resources\json\config.json. Using defaults.
+2025-04-04 14:41:27,232 - model.chatbot_model - ERROR: Critical error loading training data: Error tokenizing data. C error: Expected 2 fields in line 131, saw 3
+
+2025-04-04 14:41:27,233 - __main__ - ERROR: Failed to initialize chatbot model: Error tokenizing data. C error: Expected 2 fields in line 131, saw 3
+
+2025-04-04 14:41:27,246 - __main__ - ERROR: Traceback (most recent call last):
+  File "E:\proooo\techvriti\.snapshots\junior_developer_chatbot\app.py", line 33, in initialize_chatbot
+    chatbot = ChatbotModel()
+              ^^^^^^^^^^^^^^
+  File "E:\proooo\techvriti\.snapshots\junior_developer_chatbot\model\chatbot_model.py", line 48, in __init__
+    self.load_training_data()
+  File "E:\proooo\techvriti\.snapshots\junior_developer_chatbot\model\chatbot_model.py", line 87, in load_training_data
+    df = pd.read_csv(self.dataset_path, encoding='utf-8')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manuk\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 948, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manuk\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 617, in _read
+    return parser.read(nrows)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manuk\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\readers.py", line 1748, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\manuk\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 234, in read
+    chunks = self._reader.read_low_memory(nrows)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "parsers.pyx", line 843, in pandas._libs.parsers.TextReader.read_low_memory
+  File "parsers.pyx", line 904, in pandas._libs.parsers.TextReader._read_rows
+  File "parsers.pyx", line 879, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "parsers.pyx", line 890, in pandas._libs.parsers.TextReader._check_tokenize_status
+  File "parsers.pyx", line 2058, in pandas._libs.parsers.raise_parser_error
+pandas.errors.ParserError: Error tokenizing data. C error: Expected 2 fields in line 131, saw 3
+
+
+2025-04-04 14:41:27,284 - werkzeug - WARNING:  * Debugger is active!
+2025-04-04 14:41:27,293 - werkzeug - INFO:  * Debugger PIN: 114-599-792
+2025-04-04 14:41:35,446 - __main__ - WARNING: Config file not found at e:\proooo\techvriti\.snapshots\junior_developer_chatbot\resources\json\config.json. Using defaults.
+2025-04-04 14:41:35,448 - __main__ - ERROR: Critical error loading training data: Error tokenizing data. C error: Expected 2 fields in line 131, saw 3
+
+2025-04-04 14:43:04,556 - __main__ - WARNING: Config file not found at e:\proooo\techvriti\.snapshots\junior_developer_chatbot\resources\json\config.json. Using defaults.
+2025-04-04 14:43:04,567 - __main__ - INFO: Successfully loaded 131 training samples
+2025-04-04 14:44:31,691 - werkzeug - INFO:  * Detected change in 'E:\\proooo\\techvriti\\.snapshots\\junior_developer_chatbot\\model\\chatbot_model.py', reloading
+2025-04-04 14:44:32,071 - INFO:  * Restarting with stat
+2025-04-04 14:44:35,451 - model.chatbot_model - WARNING: Config file not found at E:\proooo\techvriti\.snapshots\junior_developer_chatbot\resources\json\config.json. Using defaults.
+2025-04-04 14:44:35,490 - model.chatbot_model - INFO: Successfully loaded 131 training samples
+2025-04-04 14:44:35,490 - __main__ - INFO: Chatbot model initialized successfully
+2025-04-04 14:44:35,520 - werkzeug - WARNING:  * Debugger is active!
+2025-04-04 14:44:35,526 - werkzeug - INFO:  * Debugger PIN: 114-599-792
+2025-04-04 14:44:46,839 - __main__ - WARNING: Config file not found at e:\proooo\techvriti\.snapshots\junior_developer_chatbot\resources\json\config.json. Using defaults.
+2025-04-04 14:44:46,850 - __main__ - INFO: Successfully loaded 131 training samples
+2025-04-04 14:46:54,658 - werkzeug - INFO:  * Detected change in 'E:\\proooo\\techvriti\\.snapshots\\junior_developer_chatbot\\model\\chatbot_model.py', reloading
+2025-04-04 14:46:55,059 - INFO:  * Restarting with stat
+2025-04-04 14:46:58,507 - model.chatbot_model - WARNING: Config file not found at E:\proooo\techvriti\.snapshots\junior_developer_chatbot\resources\json\config.json. Using defaults.
+2025-04-04 14:46:58,556 - model.chatbot_model - INFO: Successfully loaded 130 training samples
+2025-04-04 14:46:58,556 - __main__ - INFO: Chatbot model initialized successfully
+2025-04-04 14:46:58,583 - werkzeug - WARNING:  * Debugger is active!
+2025-04-04 14:46:58,593 - werkzeug - INFO:  * Debugger PIN: 114-599-792
+2025-04-04 14:47:48,146 - werkzeug - INFO:  * Detected change in 'E:\\proooo\\techvriti\\.snapshots\\junior_developer_chatbot\\model\\chatbot_model.py', reloading
+2025-04-04 14:47:48,445 - INFO:  * Restarting with stat
+2025-04-04 14:47:50,858 - model.chatbot_model - WARNING: Config file not found at E:\proooo\techvriti\.snapshots\junior_developer_chatbot\resources\json\config.json. Using defaults.
+2025-04-04 14:47:50,878 - model.chatbot_model - INFO: Successfully loaded 130 training samples
+2025-04-04 14:47:50,878 - __main__ - INFO: Chatbot model initialized successfully
+2025-04-04 14:47:50,903 - werkzeug - WARNING:  * Debugger is active!
+2025-04-04 14:47:50,910 - werkzeug - INFO:  * Debugger PIN: 114-599-792
+2025-04-04 14:47:53,020 - werkzeug - INFO:  * Detected change in 'E:\\proooo\\techvriti\\.snapshots\\junior_developer_chatbot\\model\\chatbot_model.py', reloading
+2025-04-04 14:47:53,426 - INFO:  * Restarting with stat
+2025-04-04 14:51:06,796 - __main__ - INFO: Added new training data: '& e:/proooo/techvriti/.venv/Scripts/python.exe e:/proooo/techvriti/.snapshots/junior_developer_chatbot/model/chatbot_model.py'

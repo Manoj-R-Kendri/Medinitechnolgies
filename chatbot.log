@@ -1,0 +1,318 @@
+2025-04-04 10:25:16,838 - INFO: Loaded 130 Q&A pairs from E:\proooo\techvriti\.snapshots\junior_developer_chatbot\dataset\train.csv
+2025-04-04 10:25:16,839 - INFO: Starting Junior Developer Chatbot Application
+2025-04-04 10:25:16,885 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.229.243:5000
+2025-04-04 10:25:16,886 - INFO: [33mPress CTRL+C to quit[0m
+2025-04-04 10:25:16,887 - INFO:  * Restarting with stat
+2025-04-04 10:25:18,904 - INFO: Loaded 130 Q&A pairs from E:\proooo\techvriti\.snapshots\junior_developer_chatbot\dataset\train.csv
+2025-04-04 10:25:18,918 - INFO: Starting Junior Developer Chatbot Application
+2025-04-04 10:25:18,928 - WARNING:  * Debugger is active!
+2025-04-04 10:25:18,937 - INFO:  * Debugger PIN: 875-780-577
+2025-04-04 10:25:22,987 - INFO: 127.0.0.1 - - [04/Apr/2025 10:25:22] "GET / HTTP/1.1" 200 -
+2025-04-04 10:37:52,279 - INFO: 127.0.0.1 - - [04/Apr/2025 10:37:52] "GET / HTTP/1.1" 200 -
+2025-04-04 10:37:54,432 - INFO: 127.0.0.1 - - [04/Apr/2025 10:37:54] "GET / HTTP/1.1" 200 -
+2025-04-04 10:38:14,936 - INFO: Loaded 130 Q&A pairs from E:\proooo\techvriti\.snapshots\junior_developer_chatbot\dataset\train.csv
+2025-04-04 10:38:14,937 - INFO: Starting Junior Developer Chatbot Application
+2025-04-04 10:38:14,976 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.229.243:5000
+2025-04-04 10:38:14,977 - INFO: [33mPress CTRL+C to quit[0m
+2025-04-04 10:38:14,980 - INFO:  * Restarting with stat
+2025-04-04 10:38:17,233 - INFO: Loaded 130 Q&A pairs from E:\proooo\techvriti\.snapshots\junior_developer_chatbot\dataset\train.csv
+2025-04-04 10:38:17,235 - INFO: Starting Junior Developer Chatbot Application
+2025-04-04 10:38:17,243 - WARNING:  * Debugger is active!
+2025-04-04 10:38:17,251 - INFO:  * Debugger PIN: 875-780-577
+2025-04-04 10:38:30,146 - INFO: 192.168.229.243 - - [04/Apr/2025 10:38:30] "GET / HTTP/1.1" 200 -
+2025-04-04 10:38:30,355 - INFO: 192.168.229.243 - - [04/Apr/2025 10:38:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-04 10:50:33,479 - INFO: Loaded 130 Q&A pairs from E:\proooo\techvriti\.snapshots\junior_developer_chatbot\dataset\train.csv
+2025-04-04 10:50:33,481 - INFO: Starting Junior Developer Chatbot Application
+2025-04-04 10:50:33,509 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.229.243:5000
+2025-04-04 10:50:33,510 - INFO: [33mPress CTRL+C to quit[0m
+2025-04-04 10:50:33,514 - INFO:  * Restarting with stat
+2025-04-04 10:50:35,480 - INFO: Loaded 130 Q&A pairs from E:\proooo\techvriti\.snapshots\junior_developer_chatbot\dataset\train.csv
+2025-04-04 10:50:35,481 - INFO: Starting Junior Developer Chatbot Application
+2025-04-04 10:50:35,491 - WARNING:  * Debugger is active!
+2025-04-04 10:50:35,496 - INFO:  * Debugger PIN: 875-780-577
+2025-04-04 10:50:44,504 - INFO: 192.168.229.243 - - [04/Apr/2025 10:50:44] "GET / HTTP/1.1" 200 -
+2025-04-04 10:51:56,610 - INFO: 127.0.0.1 - - [04/Apr/2025 10:51:56] "GET / HTTP/1.1" 200 -
+2025-04-04 11:04:54,360 - INFO: Loaded 130 Q&A pairs from E:\proooo\techvriti\.snapshots\junior_developer_chatbot\dataset\train.csv
+2025-04-04 11:04:54,361 - INFO: Starting Junior Developer Chatbot Application
+2025-04-04 11:04:54,399 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.229.243:5000
+2025-04-04 11:04:54,400 - INFO: [33mPress CTRL+C to quit[0m
+2025-04-04 11:04:54,403 - INFO:  * Restarting with stat
+2025-04-04 11:04:56,324 - INFO: Loaded 130 Q&A pairs from E:\proooo\techvriti\.snapshots\junior_developer_chatbot\dataset\train.csv
+2025-04-04 11:04:56,325 - INFO: Starting Junior Developer Chatbot Application
+2025-04-04 11:04:56,334 - WARNING:  * Debugger is active!
+2025-04-04 11:04:56,339 - INFO:  * Debugger PIN: 875-780-577
+2025-04-04 11:05:01,558 - INFO: 192.168.229.243 - - [04/Apr/2025 11:05:01] "GET / HTTP/1.1" 200 -
+2025-04-04 11:12:31,269 - INFO:  * Detected change in 'E:\\proooo\\techvriti\\.snapshots\\junior_developer_chatbot\\app.py', reloading
+2025-04-04 11:12:31,618 - INFO:  * Restarting with stat
+2025-04-04 11:12:34,348 - ERROR: Error loading resources: [Errno 2] No such file or directory: 'resources/json/fallback_responses.json'
+2025-04-04 11:12:34,363 - WARNING:  * Debugger is active!
+2025-04-04 11:12:34,366 - INFO:  * Debugger PIN: 875-780-577
+2025-04-04 11:14:56,898 - ERROR: Error loading resources: [Errno 2] No such file or directory: 'resources/json/fallback_responses.json'
+2025-04-04 11:14:56,927 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.229.243:5000
+2025-04-04 11:14:56,927 - INFO: [33mPress CTRL+C to quit[0m
+2025-04-04 11:14:56,928 - INFO:  * Restarting with stat
+2025-04-04 11:14:58,892 - ERROR: Error loading resources: [Errno 2] No such file or directory: 'resources/json/fallback_responses.json'
+2025-04-04 11:14:58,901 - WARNING:  * Debugger is active!
+2025-04-04 11:14:58,906 - INFO:  * Debugger PIN: 875-780-577
+2025-04-04 11:15:44,442 - INFO: 127.0.0.1 - - [04/Apr/2025 11:15:44] "GET / HTTP/1.1" 200 -
+2025-04-04 11:15:44,554 - INFO: 127.0.0.1 - - [04/Apr/2025 11:15:44] "[33mGET /static/css/chatbot.css HTTP/1.1[0m" 404 -
+2025-04-04 11:15:44,557 - INFO: 127.0.0.1 - - [04/Apr/2025 11:15:44] "[33mGET /static/images/logo.png HTTP/1.1[0m" 404 -
+2025-04-04 11:15:44,701 - INFO: 127.0.0.1 - - [04/Apr/2025 11:15:44] "GET /static/js/chatbot.js HTTP/1.1" 200 -
+2025-04-04 11:15:57,304 - INFO: 127.0.0.1 - - [04/Apr/2025 11:15:57] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-04-04 11:16:02,768 - INFO: 127.0.0.1 - - [04/Apr/2025 11:16:02] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-04-04 11:16:04,320 - INFO: 127.0.0.1 - - [04/Apr/2025 11:16:04] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-04-04 11:16:07,748 - INFO: 127.0.0.1 - - [04/Apr/2025 11:16:07] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-04-04 11:17:26,508 - INFO:  * Detected change in 'E:\\proooo\\techvriti\\.snapshots\\junior_developer_chatbot\\app.py', reloading
+2025-04-04 11:17:26,838 - INFO:  * Restarting with stat
+2025-04-04 11:18:45,131 - ERROR: Error loading resources: [Errno 2] No such file or directory: 'fallback_responses.json'
+2025-04-04 11:18:45,164 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.229.243:5000
+2025-04-04 11:18:45,164 - INFO: [33mPress CTRL+C to quit[0m
+2025-04-04 11:18:45,167 - INFO:  * Restarting with stat
+2025-04-04 11:18:47,219 - ERROR: Error loading resources: [Errno 2] No such file or directory: 'fallback_responses.json'
+2025-04-04 11:18:47,231 - WARNING:  * Debugger is active!
+2025-04-04 11:18:47,234 - INFO:  * Debugger PIN: 875-780-577
+2025-04-04 11:20:34,218 - INFO:  * Detected change in 'E:\\proooo\\techvriti\\.snapshots\\junior_developer_chatbot\\app.py', reloading
+2025-04-04 11:20:34,507 - INFO:  * Restarting with stat
+2025-04-04 11:21:14,672 - ERROR: Error loading responses: [Errno 2] No such file or directory: 'fallback_responses.json'
+2025-04-04 11:21:14,673 - ERROR: Error loading company info: [Errno 2] No such file or directory: 'company_info.json'
+2025-04-04 11:21:14,673 - INFO: Loaded 130 Q&A pairs
+2025-04-04 11:21:14,673 - INFO: Resources loaded successfully
+2025-04-04 11:21:14,701 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.229.243:5000
+2025-04-04 11:21:14,701 - INFO: [33mPress CTRL+C to quit[0m
+2025-04-04 11:21:14,702 - INFO:  * Restarting with stat
+2025-04-04 11:21:16,607 - ERROR: Error loading responses: [Errno 2] No such file or directory: 'fallback_responses.json'
+2025-04-04 11:21:16,607 - ERROR: Error loading company info: [Errno 2] No such file or directory: 'company_info.json'
+2025-04-04 11:21:16,607 - INFO: Loaded 130 Q&A pairs
+2025-04-04 11:21:16,607 - INFO: Resources loaded successfully
+2025-04-04 11:21:16,617 - WARNING:  * Debugger is active!
+2025-04-04 11:21:16,621 - INFO:  * Debugger PIN: 875-780-577
+2025-04-04 11:23:20,891 - ERROR: Error loading responses: [Errno 2] No such file or directory: 'fallback_responses.json'
+2025-04-04 11:23:20,891 - ERROR: Error loading company info: [Errno 2] No such file or directory: 'company_info.json'
+2025-04-04 11:23:20,891 - INFO: Loaded 130 Q&A pairs
+2025-04-04 11:23:20,891 - INFO: Resources loaded successfully
+2025-04-04 11:23:20,918 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.229.243:5000
+2025-04-04 11:23:20,918 - INFO: [33mPress CTRL+C to quit[0m
+2025-04-04 11:23:20,919 - INFO:  * Restarting with stat
+2025-04-04 11:23:22,820 - ERROR: Error loading responses: [Errno 2] No such file or directory: 'fallback_responses.json'
+2025-04-04 11:23:22,820 - ERROR: Error loading company info: [Errno 2] No such file or directory: 'company_info.json'
+2025-04-04 11:23:22,820 - INFO: Loaded 130 Q&A pairs
+2025-04-04 11:23:22,820 - INFO: Resources loaded successfully
+2025-04-04 11:23:22,828 - WARNING:  * Debugger is active!
+2025-04-04 11:23:22,833 - INFO:  * Debugger PIN: 875-780-577
+2025-04-04 11:25:26,139 - INFO:  * Detected change in 'E:\\proooo\\techvriti\\.snapshots\\junior_developer_chatbot\\app.py', reloading
+2025-04-04 11:25:26,478 - INFO:  * Restarting with stat
+2025-04-04 11:25:29,146 - INFO: Loaded 130 Q&A pairs
+2025-04-04 11:25:29,157 - WARNING:  * Debugger is active!
+2025-04-04 11:25:29,162 - INFO:  * Debugger PIN: 875-780-577
+2025-04-04 11:27:12,159 - INFO: Loaded 130 Q&A pairs
+2025-04-04 11:27:12,193 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.229.243:5000
+2025-04-04 11:27:12,193 - INFO: [33mPress CTRL+C to quit[0m
+2025-04-04 11:27:12,194 - INFO:  * Restarting with stat
+2025-04-04 11:27:14,390 - INFO: Loaded 130 Q&A pairs
+2025-04-04 11:27:14,404 - WARNING:  * Debugger is active!
+2025-04-04 11:27:14,407 - INFO:  * Debugger PIN: 875-780-577
+2025-04-04 11:29:12,799 - INFO: Loaded 130 Q&A pairs
+2025-04-04 11:29:12,827 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.229.243:5000
+2025-04-04 11:29:12,827 - INFO: [33mPress CTRL+C to quit[0m
+2025-04-04 11:29:12,828 - INFO:  * Restarting with stat
+2025-04-04 11:29:14,729 - INFO: Loaded 130 Q&A pairs
+2025-04-04 11:29:14,739 - WARNING:  * Debugger is active!
+2025-04-04 11:29:14,742 - INFO:  * Debugger PIN: 875-780-577
+2025-04-04 11:35:21,780 - INFO: Loaded 130 Q&A pairs from E:\proooo\techvriti\.snapshots\junior_developer_chatbot\dataset\train.csv
+2025-04-04 11:35:21,878 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.229.243:5000
+2025-04-04 11:35:21,879 - INFO: [33mPress CTRL+C to quit[0m
+2025-04-04 11:35:21,881 - INFO:  * Restarting with stat
+2025-04-04 11:35:23,649 - INFO: Loaded 130 Q&A pairs from E:\proooo\techvriti\.snapshots\junior_developer_chatbot\dataset\train.csv
+2025-04-04 11:35:23,668 - WARNING:  * Debugger is active!
+2025-04-04 11:35:23,675 - INFO:  * Debugger PIN: 114-599-792
+2025-04-04 11:36:11,460 - INFO: Loaded 130 Q&A pairs from E:\proooo\techvriti\.snapshots\junior_developer_chatbot\dataset\train.csv
+2025-04-04 11:36:11,541 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.229.243:5000
+2025-04-04 11:36:11,542 - INFO: [33mPress CTRL+C to quit[0m
+2025-04-04 11:36:11,543 - INFO:  * Restarting with stat
+2025-04-04 11:36:13,203 - INFO: Loaded 130 Q&A pairs from E:\proooo\techvriti\.snapshots\junior_developer_chatbot\dataset\train.csv
+2025-04-04 11:36:13,219 - WARNING:  * Debugger is active!
+2025-04-04 11:36:13,223 - INFO:  * Debugger PIN: 114-599-792
+2025-04-04 11:37:11,672 - INFO: Loaded 130 Q&A pairs from E:\proooo\techvriti\.snapshots\junior_developer_chatbot\dataset\train.csv
+2025-04-04 11:37:11,764 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.229.243:5000
+2025-04-04 11:37:11,764 - INFO: [33mPress CTRL+C to quit[0m
+2025-04-04 11:37:11,766 - INFO:  * Restarting with stat
+2025-04-04 11:37:13,505 - INFO: Loaded 130 Q&A pairs from E:\proooo\techvriti\.snapshots\junior_developer_chatbot\dataset\train.csv
+2025-04-04 11:37:13,522 - WARNING:  * Debugger is active!
+2025-04-04 11:37:13,526 - INFO:  * Debugger PIN: 114-599-792
+2025-04-04 11:37:35,576 - INFO: 127.0.0.1 - - [04/Apr/2025 11:37:35] "GET / HTTP/1.1" 200 -
+2025-04-04 11:37:35,717 - INFO: 127.0.0.1 - - [04/Apr/2025 11:37:35] "[33mGET /static/css/chatbot.css HTTP/1.1[0m" 404 -
+2025-04-04 11:37:36,154 - INFO: 127.0.0.1 - - [04/Apr/2025 11:37:36] "GET /static/js/chatbot.js HTTP/1.1" 200 -
+2025-04-04 11:39:38,730 - INFO: 127.0.0.1 - - [04/Apr/2025 11:39:38] "GET / HTTP/1.1" 200 -
+2025-04-04 11:39:38,872 - INFO: 127.0.0.1 - - [04/Apr/2025 11:39:38] "[33mGET /static/css/chatbot.css HTTP/1.1[0m" 404 -
+2025-04-04 11:39:38,899 - INFO: 127.0.0.1 - - [04/Apr/2025 11:39:38] "[36mGET /static/js/chatbot.js HTTP/1.1[0m" 304 -
+2025-04-04 11:39:51,715 - INFO: Received input: hello
+2025-04-04 11:39:51,715 - INFO: Generated response: Hello!
+2025-04-04 11:39:51,715 - INFO: 127.0.0.1 - - [04/Apr/2025 11:39:51] "POST / HTTP/1.1" 200 -
+2025-04-04 11:39:56,218 - INFO: Received input: hi
+2025-04-04 11:39:56,251 - INFO: Generated response: Hello! Welcome to MEDINI TECHNOLGIES 
+2025-04-04 11:39:56,251 - INFO: 127.0.0.1 - - [04/Apr/2025 11:39:56] "POST / HTTP/1.1" 200 -
+2025-04-04 11:40:17,719 - INFO: Received input: what are the technolgies you offer
+2025-04-04 11:40:17,725 - INFO: Generated response: Currently waiting to assist you with  design questions!
+2025-04-04 11:40:17,725 - INFO: 127.0.0.1 - - [04/Apr/2025 11:40:17] "POST / HTTP/1.1" 200 -
+2025-04-04 11:40:25,588 - INFO: Received input: what is cad
+2025-04-04 11:40:25,591 - INFO: Generated response: CAD is Computer-Aided Design software
+2025-04-04 11:40:25,592 - INFO: 127.0.0.1 - - [04/Apr/2025 11:40:25] "POST / HTTP/1.1" 200 -
+2025-04-04 11:47:19,471 - INFO: 127.0.0.1 - - [04/Apr/2025 11:47:19] "GET / HTTP/1.1" 200 -
+2025-04-04 11:47:19,549 - INFO: 127.0.0.1 - - [04/Apr/2025 11:47:19] "[33mGET /static/css/chatbot.css HTTP/1.1[0m" 404 -
+2025-04-04 11:47:19,734 - INFO: 127.0.0.1 - - [04/Apr/2025 11:47:19] "GET /static/js/chatbot.js HTTP/1.1" 200 -
+2025-04-04 11:47:19,997 - INFO: 127.0.0.1 - - [04/Apr/2025 11:47:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-04 11:47:43,424 - INFO: 127.0.0.1 - - [04/Apr/2025 11:47:43] "GET / HTTP/1.1" 200 -
+2025-04-04 11:47:43,535 - INFO: 127.0.0.1 - - [04/Apr/2025 11:47:43] "[33mGET /static/css/chatbot.css HTTP/1.1[0m" 404 -
+2025-04-04 11:47:43,687 - INFO: 127.0.0.1 - - [04/Apr/2025 11:47:43] "[36mGET /static/js/chatbot.js HTTP/1.1[0m" 304 -
+2025-04-04 11:50:26,324 - INFO: 127.0.0.1 - - [04/Apr/2025 11:50:26] "GET / HTTP/1.1" 200 -
+2025-04-04 11:50:26,430 - INFO: 127.0.0.1 - - [04/Apr/2025 11:50:26] "[33mGET /static/css/chatbot.css HTTP/1.1[0m" 404 -
+2025-04-04 11:50:26,585 - INFO: 127.0.0.1 - - [04/Apr/2025 11:50:26] "[36mGET /static/js/chatbot.js HTTP/1.1[0m" 304 -
+2025-04-04 11:55:05,259 - INFO: Loaded 130 Q&A pairs from E:\proooo\techvriti\.snapshots\junior_developer_chatbot\dataset\train.csv
+2025-04-04 11:55:05,291 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-04 11:55:05,291 - INFO: [33mPress CTRL+C to quit[0m
+2025-04-04 11:55:05,293 - INFO:  * Restarting with stat
+2025-04-04 11:55:07,296 - INFO: Loaded 130 Q&A pairs from E:\proooo\techvriti\.snapshots\junior_developer_chatbot\dataset\train.csv
+2025-04-04 11:55:07,306 - WARNING:  * Debugger is active!
+2025-04-04 11:55:07,309 - INFO:  * Debugger PIN: 114-599-792
+2025-04-04 12:03:44,967 - INFO:  * Detected change in 'E:\\proooo\\techvriti\\.snapshots\\junior_developer_chatbot\\model\\chatbot_model.py', reloading
+2025-04-04 12:03:45,281 - INFO:  * Detected change in 'E:\\proooo\\techvriti\\.snapshots\\junior_developer_chatbot\\model\\chatbot_model.py', reloading
+2025-04-04 12:03:45,427 - INFO:  * Restarting with stat
+2025-04-04 12:03:45,544 - INFO:  * Restarting with stat
+2025-04-04 12:03:48,078 - INFO: Loaded 130 Q&A pairs from E:\proooo\techvriti\.snapshots\junior_developer_chatbot\dataset\train.csv
+2025-04-04 12:03:48,112 - WARNING:  * Debugger is active!
+2025-04-04 12:03:48,116 - INFO:  * Debugger PIN: 114-599-792
+2025-04-04 12:03:48,152 - INFO: Loaded 130 Q&A pairs from E:\proooo\techvriti\.snapshots\junior_developer_chatbot\dataset\train.csv
+2025-04-04 12:03:48,165 - WARNING:  * Debugger is active!
+2025-04-04 12:03:48,170 - INFO:  * Debugger PIN: 114-599-792
+2025-04-04 12:03:58,234 - INFO:  * Detected change in 'E:\\proooo\\techvriti\\.snapshots\\junior_developer_chatbot\\app.py', reloading
+2025-04-04 12:03:58,271 - INFO:  * Detected change in 'E:\\proooo\\techvriti\\.snapshots\\junior_developer_chatbot\\app.py', reloading
+2025-04-04 12:03:58,503 - INFO:  * Restarting with stat
+2025-04-04 12:03:58,666 - INFO:  * Restarting with stat
+2025-04-04 12:04:00,286 - INFO:  * Restarting with stat
+2025-04-04 12:04:02,288 - INFO: Loaded 130 training samples
+2025-04-04 12:04:02,288 - ERROR: Error loading training data: [Errno 2] No such file or directory: 'E:\\proooo\\techvriti\\.snapshots\\junior_developer_chatbot\\model\\..\\resources\\json\\training_data.json'
+2025-04-04 12:04:02,296 - WARNING:  * Debugger is active!
+2025-04-04 12:04:02,300 - INFO:  * Debugger PIN: 114-599-792
+2025-04-04 12:05:32,542 - INFO: Loaded 130 training samples
+2025-04-04 12:05:32,542 - ERROR: Error loading training data: [Errno 2] No such file or directory: 'E:\\proooo\\techvriti\\.snapshots\\junior_developer_chatbot\\model\\..\\resources\\json\\training_data.json'
+2025-04-04 12:05:32,620 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.229.243:5000
+2025-04-04 12:05:32,620 - INFO: [33mPress CTRL+C to quit[0m
+2025-04-04 12:05:32,621 - INFO:  * Restarting with stat
+2025-04-04 12:05:33,846 - INFO: Loaded 130 training samples
+2025-04-04 12:05:33,846 - ERROR: Error loading training data: [Errno 2] No such file or directory: 'E:\\proooo\\techvriti\\.snapshots\\junior_developer_chatbot\\model\\..\\resources\\json\\training_data.json'
+2025-04-04 12:05:33,859 - WARNING:  * Debugger is active!
+2025-04-04 12:05:33,861 - INFO:  * Debugger PIN: 114-599-792
+2025-04-04 12:06:05,153 - INFO: 192.168.229.243 - - [04/Apr/2025 12:06:05] "GET / HTTP/1.1" 200 -
+2025-04-04 12:06:05,481 - INFO: 192.168.229.243 - - [04/Apr/2025 12:06:05] "GET /static/js/chatbot.js HTTP/1.1" 200 -
+2025-04-04 12:06:14,350 - INFO: Received input: hi
+2025-04-04 12:06:14,350 - ERROR: Error generating response: 'ChatbotModel' object has no attribute 'additional_data'
+2025-04-04 12:06:14,350 - INFO: Generated response: Sorry, I couldn't process your request.
+2025-04-04 12:06:14,351 - INFO: 192.168.229.243 - - [04/Apr/2025 12:06:14] "POST / HTTP/1.1" 200 -
+2025-04-04 12:06:19,048 - INFO: Received input: hlo
+2025-04-04 12:06:19,048 - ERROR: Error generating response: 'ChatbotModel' object has no attribute 'additional_data'
+2025-04-04 12:06:19,048 - INFO: Generated response: Sorry, I couldn't process your request.
+2025-04-04 12:06:19,048 - INFO: 192.168.229.243 - - [04/Apr/2025 12:06:19] "POST / HTTP/1.1" 200 -
+2025-04-04 12:06:22,378 - INFO: Received input: hello
+2025-04-04 12:06:22,378 - ERROR: Error generating response: 'ChatbotModel' object has no attribute 'additional_data'
+2025-04-04 12:06:22,378 - INFO: Generated response: Sorry, I couldn't process your request.
+2025-04-04 12:06:22,379 - INFO: 192.168.229.243 - - [04/Apr/2025 12:06:22] "POST / HTTP/1.1" 200 -
+2025-04-04 12:06:33,709 - INFO: 192.168.229.243 - - [04/Apr/2025 12:06:33] "GET / HTTP/1.1" 200 -
+2025-04-04 12:06:33,752 - INFO: 192.168.229.243 - - [04/Apr/2025 12:06:33] "[36mGET /static/js/chatbot.js HTTP/1.1[0m" 304 -
+2025-04-04 12:06:43,361 - INFO: Received input: hi
+2025-04-04 12:06:43,361 - ERROR: Error generating response: 'ChatbotModel' object has no attribute 'additional_data'
+2025-04-04 12:06:43,361 - INFO: Generated response: Sorry, I couldn't process your request.
+2025-04-04 12:06:43,362 - INFO: 192.168.229.243 - - [04/Apr/2025 12:06:43] "POST / HTTP/1.1" 200 -
+2025-04-04 12:09:20,198 - INFO:  * Detected change in 'E:\\proooo\\techvriti\\.snapshots\\junior_developer_chatbot\\model\\chatbot_model.py', reloading
+2025-04-04 12:09:20,529 - INFO:  * Restarting with stat
+2025-04-04 12:09:37,382 - INFO: Loaded 130 training samples
+2025-04-04 12:09:37,382 - ERROR: Training data not found: E:\proooo\techvriti\.snapshots\junior_developer_chatbot\resources\json\training_data.json
+2025-04-04 12:15:07,361 - ERROR: Error loading config: Invalid control character at: line 2 column 41 (char 42)
+2025-04-04 12:15:07,366 - INFO: Loaded 130 training samples
+2025-04-04 12:15:07,367 - ERROR: Resource loading error: [Errno 2] No such file or directory: 'E:\\proooo\\techvriti\\.snapshots\\junior_developer_chatbot\\resources\\json\\intent_mapping.json'
+2025-04-04 12:15:07,481 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.229.243:5000
+2025-04-04 12:15:07,481 - INFO: [33mPress CTRL+C to quit[0m
+2025-04-04 12:15:07,484 - INFO:  * Restarting with stat
+2025-04-04 12:15:09,122 - ERROR: Error loading config: Invalid control character at: line 2 column 41 (char 42)
+2025-04-04 12:15:09,127 - INFO: Loaded 130 training samples
+2025-04-04 12:15:09,127 - ERROR: Resource loading error: [Errno 2] No such file or directory: 'E:\\proooo\\techvriti\\.snapshots\\junior_developer_chatbot\\resources\\json\\intent_mapping.json'
+2025-04-04 12:15:09,142 - WARNING:  * Debugger is active!
+2025-04-04 12:15:09,146 - INFO:  * Debugger PIN: 114-599-792
+2025-04-04 12:16:04,637 - INFO: Loaded 130 training samples
+2025-04-04 12:16:04,638 - ERROR: Resource loading error: [Errno 2] No such file or directory: 'E:\\proooo\\techvriti\\.snapshots\\junior_developer_chatbot\\resources\\json\\intent_mapping.json'
+2025-04-04 12:16:04,703 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.229.243:5000
+2025-04-04 12:16:04,704 - INFO: [33mPress CTRL+C to quit[0m
+2025-04-04 12:16:04,705 - INFO:  * Restarting with stat
+2025-04-04 12:16:05,792 - INFO: Loaded 130 training samples
+2025-04-04 12:16:05,793 - ERROR: Resource loading error: [Errno 2] No such file or directory: 'E:\\proooo\\techvriti\\.snapshots\\junior_developer_chatbot\\resources\\json\\intent_mapping.json'
+2025-04-04 12:16:05,805 - WARNING:  * Debugger is active!
+2025-04-04 12:16:05,808 - INFO:  * Debugger PIN: 114-599-792
+2025-04-04 12:54:36,771 - WARNING: Config file not found at E:\proooo\techvriti\.snapshots\junior_developer_chatbot\resources\json\config.json. Using defaults.
+2025-04-04 12:54:36,795 - INFO: Successfully loaded 130 training samples
+2025-04-04 12:54:36,907 - INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.229.243:5000
+2025-04-04 12:54:36,907 - INFO: [33mPress CTRL+C to quit[0m
+2025-04-04 12:54:36,911 - INFO:  * Restarting with stat
+2025-04-04 12:54:38,330 - WARNING: Config file not found at E:\proooo\techvriti\.snapshots\junior_developer_chatbot\resources\json\config.json. Using defaults.
+2025-04-04 12:54:38,338 - INFO: Successfully loaded 130 training samples
+2025-04-04 12:54:38,350 - WARNING:  * Debugger is active!
+2025-04-04 12:54:38,355 - INFO:  * Debugger PIN: 114-599-792
+2025-04-04 12:55:44,739 - INFO: 127.0.0.1 - - [04/Apr/2025 12:55:44] "GET / HTTP/1.1" 200 -
+2025-04-04 12:56:50,536 - INFO: 127.0.0.1 - - [04/Apr/2025 12:56:50] "GET / HTTP/1.1" 200 -
+2025-04-04 12:58:30,670 - INFO: 192.168.229.243 - - [04/Apr/2025 12:58:30] "GET / HTTP/1.1" 200 -
+2025-04-04 12:58:36,334 - INFO: 127.0.0.1 - - [04/Apr/2025 12:58:36] "GET / HTTP/1.1" 200 -
+2025-04-04 12:59:16,928 - INFO: 127.0.0.1 - - [04/Apr/2025 12:59:16] "GET / HTTP/1.1" 200 -
+2025-04-04 14:23:54,360 - INFO: 127.0.0.1 - - [04/Apr/2025 14:23:54] "GET / HTTP/1.1" 200 -
+2025-04-04 14:33:15,916 - WARNING: Config file not found at E:\proooo\techvriti\.snapshots\junior_developer_chatbot\resources\json\config.json. Using defaults.
+2025-04-04 14:33:15,948 - INFO: Successfully loaded 130 training samples
+2025-04-04 14:33:15,949 - INFO: Chatbot model initialized successfully

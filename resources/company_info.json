@@ -1,0 +1,11 @@
+{
+    "name": "Medini Technologies",
+    "founded": 2020,
+    "mission": "Empowering junior developers",
+    "internship_details": {
+        "duration": "3-6 months",
+        "stipend": "Competitive",
+        "locations": ["Remote", "Bangalore", "Hyderabad"]
+    },
+    "technologies": ["AI", "Web Development", "Machine Learning"]
+}

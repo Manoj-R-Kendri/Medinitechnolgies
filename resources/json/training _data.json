@@ -1,0 +1,16 @@
+{
+    "intents": {
+        "greeting": ["hello", "hi", "hey", "greetings"],
+        "internship": ["internship", "job", "opportunity", "career"],
+        "course": ["course", "training", "learn", "education"],
+        "technical": ["cad", "autocad", "revit", "technical"],
+        "contact": ["contact", "email", "phone", "support"]
+    },
+    "responses": {
+        "greeting": "Hello! Welcome to Junior Developer Chatbot. How can I assist you today?",
+        "internship": "We offer exciting internship opportunities for junior developers in various technical domains. Would you like to know more about our internship programs?",
+        "course": "We provide comprehensive training programs in CAD, AutoCAD, Revit, and other technical skills. What specific area are you interested in learning?",
+        "technical": "Our technical training covers Computer-Aided Design (CAD), AutoCAD, Revit, and other industry-standard software. Can you tell me more about your specific interests?",
+        "contact": "You can reach us at contact@techvriti.com or call +91 8431273912 for more information about our programs."
+    }
+}

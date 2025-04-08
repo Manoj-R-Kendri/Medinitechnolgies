@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AbortController Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        #controls {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            border: 2px solid transparent;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 16px;
+        }
+        #fetch-btn {
+            background-color: #00FF00;  /* Brightest Neon Green */
+            color: black;
+            border-color: #00CC00;
+            box-shadow: 0 6px 12px rgba(0,255,0,0.3);
+        }
+        #fetch-btn:hover {
+            background-color: #00CC00;  /* Slightly darker neon green */
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0,255,0,0.4);
+        }
+        #abort-btn {
+            background-color: #FF0000;  /* Brightest Neon Red */
+            color: white;
+            border-color: #CC0000;
+            box-shadow: 0 6px 12px rgba(255,0,0,0.3);
+        }
+        #abort-btn:hover {
+            background-color: #CC0000;  /* Slightly darker neon red */
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(255,0,0,0.4);
+        }
+        #output {
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            min-height: 200px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fetch Data with AbortController</h1>
+    
+    <div id="controls">
+        <button id="fetch-btn">Fetch Data</button>
+        <button id="abort-btn">Abort Fetch</button>
+    </div>
+
+    <div id="output">Output will appear here...</div>
+
+    <script src="chatbot.js"></script>
+</body>
+</html>
