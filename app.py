@@ -2,8 +2,16 @@ import os
 import logging
 from flask import Flask, request, jsonify
 import pandas as pd
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
+
+# Graceful import of scikit-learn
+try:
+    from sklearn.feature_extraction.text import TfidfVectorizer
+    from sklearn.metrics.pairwise import cosine_similarity
+except ImportError:
+    logging.warning("Could not import full scikit-learn functionality")
+    TfidfVectorizer = None
+    cosine_similarity = None
+
 from dotenv import load_dotenv
 
 # Load environment variables
@@ -32,8 +40,12 @@ class CADChatbot:
         Raises:
             FileNotFoundError: If the dataset file is not found.
             ValueError: If the dataset is empty or improperly formatted.
+            ImportError: If machine learning libraries are not available.
         """
         try:
+            if TfidfVectorizer is None or cosine_similarity is None:
+                raise ImportError("Machine learning libraries not available")
+            
             self.data = pd.read_csv(csv_path)
             
             if self.data.empty:
@@ -51,6 +63,9 @@ class CADChatbot:
             raise
         except ValueError as ve:
             logging.error('Dataset validation error: %s', str(ve))
+            raise
+        except Exception as e:
+            logging.error(f'Initialization error: {str(e)}')
             raise
 
     def get_response(self, user_input):
@@ -70,6 +85,9 @@ class CADChatbot:
             if not user_input or not isinstance(user_input, str):
                 raise ValueError("Invalid user input")
             
+            if TfidfVectorizer is None or cosine_similarity is None:
+                return "Machine learning capabilities are currently unavailable."
+            
             user_tfidf = self.vectorizer.transform([user_input])
             cosine_scores = cosine_similarity(user_tfidf, self.tfidf_matrix)[0]
             best_match_index = cosine_scores.argmax()
@@ -80,9 +98,9 @@ class CADChatbot:
         except ValueError as ve:
             logging.error('Value error in response generation: %s', str(ve))
             return "I'm sorry, I couldn't understand your question."
-        except IndexError:
-            logging.error('No matching response found for input')
-            return "I don't have a suitable response for that query."
+        except Exception as e:
+            logging.error(f'Response generation error: {str(e)}')
+            return "I'm sorry, I couldn't understand your question."
 
     def train_model(self, new_questions, new_answers):
         """
@@ -113,7 +131,11 @@ class CADChatbot:
 
 # Flask Application Setup
 app = Flask(__name__)
-chatbot = CADChatbot()
+try:
+    chatbot = CADChatbot()
+except Exception as e:
+    logging.error(f'Chatbot initialization failed: {str(e)}')
+    chatbot = None
 
 @app.route('/chat', methods=['POST'])
 def chat():
@@ -127,6 +149,9 @@ def chat():
         ValueError: If request is invalid.
     """
     try:
+        if chatbot is None:
+            return jsonify({'error': 'Chatbot is not initialized'}), 500
+        
         data = request.get_json()
         
         if not data:
