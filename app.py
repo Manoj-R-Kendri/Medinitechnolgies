@@ -3,12 +3,14 @@ import logging
 from flask import Flask, request, jsonify
 import pandas as pd
 
-# Graceful import of scikit-learn
+# Conditional import with fallback
 try:
     from sklearn.feature_extraction.text import TfidfVectorizer
     from sklearn.metrics.pairwise import cosine_similarity
+    SKLEARN_AVAILABLE = True
 except ImportError:
-    logging.warning("Could not import full scikit-learn functionality")
+    logging.warning("Scikit-learn could not be imported. Falling back to basic functionality.")
+    SKLEARN_AVAILABLE = False
     TfidfVectorizer = None
     cosine_similarity = None
 
@@ -43,7 +45,7 @@ class CADChatbot:
             ImportError: If machine learning libraries are not available.
         """
         try:
-            if TfidfVectorizer is None or cosine_similarity is None:
+            if not SKLEARN_AVAILABLE:
                 raise ImportError("Machine learning libraries not available")
             
             self.data = pd.read_csv(csv_path)
@@ -85,7 +87,7 @@ class CADChatbot:
             if not user_input or not isinstance(user_input, str):
                 raise ValueError("Invalid user input")
             
-            if TfidfVectorizer is None or cosine_similarity is None:
+            if not SKLEARN_AVAILABLE:
                 return "Machine learning capabilities are currently unavailable."
             
             user_tfidf = self.vectorizer.transform([user_input])
@@ -114,6 +116,9 @@ class CADChatbot:
             ValueError: If input lists are invalid or mismatched.
         """
         try:
+            if not SKLEARN_AVAILABLE:
+                raise ImportError("Machine learning libraries not available for training")
+            
             if len(new_questions) != len(new_answers):
                 raise ValueError("Questions and answers lists must be of equal length")
             
@@ -127,6 +132,9 @@ class CADChatbot:
         
         except ValueError as ve:
             logging.error('Error training model: %s', str(ve))
+            raise
+        except Exception as e:
+            logging.error(f'Error training model: {str(e)}')
             raise
 
 # Flask Application Setup
